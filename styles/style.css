@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 8rem;
+}
+.btn-for-ios {
+    border-bottom: 5px solid #296e4c;
+}
+.btn-for-ios:hover {
+    background-color: #296e4bae;
+}
+.btn-for-mac {
+    border-bottom: 5px solid #635eb5;
+}
+
